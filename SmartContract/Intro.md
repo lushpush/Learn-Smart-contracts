@@ -13,6 +13,7 @@
 Sprint 1: ( 1/28 )
 
  * Foundations of the technology 
+
     * [Table of Contents](https://github.com/smartcontractkit/full-blockchain-solidity-course-py#table-of-contents)
    * Resources For This Course
      - [Questions](https://github.com/smartcontractkit/full-blockchain-solidity-course-py#questions)
@@ -36,11 +37,100 @@ Sprint 1: ( 1/28 )
      - [Chainlink Oracles](https://github.com/smartcontractkit/full-blockchain-solidity-course-py#chainlink-oracles)
      - [Importing from NPM and Advanced Solidity](https://github.com/smartcontractkit/full-blockchain-solidity-course-py#importing-from-npm-and-advanced-solidity)
 
+   ### Topic 
+
+   ```
+   
+   s karthi
+   1 month ago (edited)
+   00:00:00 - Introduction
+   00:00:51 -    Author
+   00:02:04 -    prerequisites
+   00:03:00 -    Resources
+   00:03:57 -    learn at your own Pace
+   00:05:00 -    Community
+   00:05:58 - Blockchain
+   00:06:25 -    Bitcoin
+   00:07:27 -    Ethereum
+   00:08:14 -    Smart Contracts
+   00:09:07 -    Bitcoin vs Ethereum
+   00:09:43 -    Oracle problem &  Solution
+   00:10:28 -    Hybrid Smart Contracts
+   00:11:01 -    Chainlink
+   00:12:47 -    Importance of Ethereum
+   00:13:33 -    Chainlink features
+   00:13:50 -    summary
+   00:15:04 -Features & Advantages of Smart contracts and Blockchain
+   00:15:15 -    Decentralized
+   00:16:55 -    Transparency & Flexibility
+   00:17:35 -    Speed & Efficiency
+   00:18:11 -    Security & Immutability
+   00:19:34 -    Removal of Counterparty risks
+   00:21:13 -    Trust Minimized  Agreements
+   00:23:21 -    Summary
+   00:24:46 -DAOs
+   00:25:15 -Ethereum Transaction On a Live  Blockchain
+   00:25:57 -    Wallet Creation
+   00:29:30 -    Etherscan
+   00:30:03 -    Multiple Accounts
+   00:30:28 -    Mnemonic ,  Public & Private keys
+   00:31:34 -    Mnemonic vs Private vs Public keys
+   00:32:02 -    Mainnet & Testnets
+   00:33:39 -    Initiating our first Transaction
+   00:35:55 -    Transaction details
+   00:36:50 -    Gas fees, Transaction fees, Gas limit, Gas price ....
+   00:39:36 -    Gas vs Gas price vs Gas Limit vs Transaction fee
+   00:40:40 -    Gas estimator
+   00:43:46 -How Blockchain works/whats going on Inside the Blockchain
+   00:44:26 -    Hash or Hashing or SHA256
+   00:46:35 -    Block
+   00:49:37 -    Blockchain
+   00:53:18 -    Decentralized/Distributed Blockchain
+   00:57:19 -    Tokens/Transaction History
+   00:59:55 -    Recap/summary
+   01:01:34 -Signing and Verifying a Transaction
+   01:01:45 -    Public & Private Keys
+   01:03:29 -    Signatures
+   01:05:05 -    Transactions
+   01:07:39 -    Recap/summary
+   01:09:00 -Concepts are same
+   01:10:03 -    Nodes
+   01:10:40 -    Anyone can Become a Node
+   01:11:02 -    Centralized entity vs  Decentralized Blockchain
+   01:11:55 -    Transactions are Listed
+   01:12:27 -    Consensus ,Proof of Work ,Proof of Stake
+   01:12:35 -    Consensus
+   01:13:21 -    proof of work/Sybil resistance mechanism
+   01:14:56 -    Blocktime
+   01:15:32 -    Chain selection rule
+   01:15:50 -    Nakamoto consensus
+   01:16:15 -    Block Confirmations
+   01:17:00 -    Block rewards & transaction fees
+   01:19:34 -    Sybil attack
+   01:19:52 -    51% attack
+   01:21:41 -    Drawbacks of pow
+   01:21:53 -    proof of stake/sybil resistance mechanism
+   01:23:14 -    Validators
+   01:24:27 -    pros & cons of pos
+   01:25:27 -    Scalability problem & Sharding solution
+   01:26:40 -    Layer 1 & Layer 2
+   01:27:22 -    Rollups
+   01:28:15 -    Recap/Summary
+   ```
+
+   
+
 # References 
 
 https://remix.ethereum.org/  - online editor
 
 https://www.freecodecamp.org/news/learn-solidity-blockchain-and-smart-contracts-in-a-free/
+
+https://github.com/trottier/original-bitcoin/tree/master/src -- Satoshi Nakomoto bitcoin source code. 
+
+https://www.youtube.com/watch?v=MCxOwPlVVgA - Satoshi Nakomoto white paper explained 
+
+https://cryptozombies.io/   Learn to Code Blockchain DApps By Building Simple Games
 
 https://github.com/smartcontractkit/full-blockchain-solidity-course-py - Tutorials we are following
 
