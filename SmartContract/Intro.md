@@ -46,6 +46,7 @@ https://github.com/smartcontractkit/full-blockchain-solidity-course-py - Tutoria
 
 you tube video timeslice 
 
+```
 00:00:00 - Introduction
 00:00:51 -    Author
 00:02:04 -    prerequisites
@@ -311,6 +312,7 @@ you tube video timeslice
 04:46:20 -    running
 04:46:48 -    tests
 04:47:43 -    test SS
+```
 
 
 
