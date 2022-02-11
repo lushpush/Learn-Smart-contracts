@@ -118,7 +118,12 @@ Sprint 1: ( 1/28 )
    01:28:15 -    Recap/Summary
    ```
 
-   
+
+Sprint 2 (02/11)
+
+
+
+
 
 # References 
 
@@ -138,7 +143,9 @@ https://andersbrownworth.com/blockchain/  - Blockchain visualization
 
 https://eth.wiki/en/faqs/glossary  - Glossary
 
-https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/#prerequisites  - Proof of stake
+https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/#prerequisites  - 
+
+https://hackernoon.com/learn-blockchains-by-building-one-117428612f46 - Example of block chain
 
 you tube video timeslice 
 
