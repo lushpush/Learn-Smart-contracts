@@ -134,6 +134,8 @@ https://cryptozombies.io/   Learn to Code Blockchain DApps By Building Simple Ga
 
 https://github.com/smartcontractkit/full-blockchain-solidity-course-py - Tutorials we are following
 
+https://andersbrownworth.com/blockchain/  - Blockchain visualization
+
 you tube video timeslice 
 
 ```
