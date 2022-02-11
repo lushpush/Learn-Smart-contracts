@@ -119,7 +119,10 @@ Sprint 1: ( 1/28 )
    ```
 
 
-Sprint 2 (02/11)
+## Sprint 2: ( 1/28 )
+
+Follow 
+https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
 
 
 
@@ -145,7 +148,7 @@ https://eth.wiki/en/faqs/glossary  - Glossary
 
 https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/#prerequisites  - 
 
-https://hackernoon.com/learn-blockchains-by-building-one-117428612f46 - Example of block chain
+https://hackernoon.com/learn-blockchains-by-building-one-117428612f46 - Example of block 
 
 you tube video timeslice 
 
