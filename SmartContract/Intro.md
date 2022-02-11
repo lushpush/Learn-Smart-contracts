@@ -136,6 +136,10 @@ https://github.com/smartcontractkit/full-blockchain-solidity-course-py - Tutoria
 
 https://andersbrownworth.com/blockchain/  - Blockchain visualization
 
+https://eth.wiki/en/faqs/glossary  - Glossary
+
+https://ethereum.org/en/developers/docs/consensus-mechanisms/pos/#prerequisites  - Proof of stake
+
 you tube video timeslice 
 
 ```
