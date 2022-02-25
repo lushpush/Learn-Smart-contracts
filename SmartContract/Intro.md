@@ -141,6 +141,94 @@ Solidity Sample voting Artical
   https://medium.com/brexeng/building-ethereum-from-scratch-in-10-minutes-fe74519ef8c8
   * https://github.com/madrona-labs/voting
 
+``` solidity
+/ SPDX-License-Identifier: GPL-3.0
+
+pragma solidity >=0.7.0 <0.9.0;
+
+/**
+ * @title Ballot
+ * @dev Implements voting process along with vote delegation
+ */
+contract Ballot {
+   
+    struct Voter {
+        bool voted;  // if true, that person already voted
+    }
+
+    struct Proposal {
+        string name;   // short name (up to 32 bytes)
+        uint voteCount; // number of accumulated votes
+    }
+
+
+    mapping(address => Voter) public voters;
+
+    Proposal[] public proposals;
+
+    /**
+     * @dev Create a new ballot to choose one of 'proposalNames'.
+     * @param proposalNames names of proposals
+     */
+    constructor(string[] memory proposalNames) {
+        for (uint i = 0; i < proposalNames.length; i++) {
+            proposals.push(Proposal({
+                name: proposalNames[i],
+                voteCount: 0
+            }));
+        }
+    }
+
+    function showAllOptions() public view returns (string[] memory) {
+        string[] memory allNames = new string[](proposals.length);
+
+        for (uint i = 0; i < proposals.length; i++) {
+            allNames[i] = proposals[i].name;
+        }
+        return allNames;
+    }
+
+    /**
+     * @dev Give your vote (including votes delegated to you) to proposal 'proposals[proposal].name'.
+     * @param proposal index of proposal in the proposals array
+     */
+    function vote(uint proposal) public {
+        Voter storage sender = voters[msg.sender];
+        require(!sender.voted, "Already voted.");
+        sender.voted = true;
+        proposals[proposal].voteCount += 1;
+    }
+
+    /**
+     * @dev Computes the winning proposal taking all previous votes into account.
+     * @return winningProposal_ index of winning proposal in the proposals array
+     */
+    function winningProposal() public view
+            returns (uint winningProposal_)
+    {
+        uint winningVoteCount = 0;
+        for (uint p = 0; p < proposals.length; p++) {
+            if (proposals[p].voteCount > winningVoteCount) {
+                winningVoteCount = proposals[p].voteCount;
+                winningProposal_ = p;
+            }
+        }
+    }
+
+    /**
+     * @dev Calls winningProposal() function to get the index of the winner contained in the proposals array and then
+     * @return winnerName_ the name of the winner
+     */
+    function winnerName() public view
+            returns (string memory winnerName_)
+    {
+        winnerName_ = proposals[winningProposal()].name;
+    }
+}
+```
+
+
+
 
 
 # References 
@@ -515,3 +603,4 @@ It is organized in a hierarchy of subcommands, and each level comes with its own
 > ```
 >
 > 
+
