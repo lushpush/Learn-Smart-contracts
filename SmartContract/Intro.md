@@ -37,8 +37,12 @@ Sprint 1: ( 1/28 )
      - [Chainlink Oracles](https://github.com/smartcontractkit/full-blockchain-solidity-course-py#chainlink-oracles)
      - [Importing from NPM and Advanced Solidity](https://github.com/smartcontractkit/full-blockchain-solidity-course-py#importing-from-npm-and-advanced-solidity)
 
-   ### Topic 
+   You tube video (Patrick Collins)
 
+   https://www.youtube.com/watch?v=M576WGiDBdQ
+   
+   ### Topic 
+   
    ```
    
    s karthi
@@ -124,15 +128,26 @@ Sprint 1: ( 1/28 )
 Follow 
 https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
 
+* Build your own blockchain using abovementioned example Step 1,2,3
 
+### **Sprint 3: ( 1/28 )**
+
+* Read ethereum  white paper https://ethereum.org/en/whitepaper/
+* Follow code 
+  https://medium.com/brexeng/building-ethereum-from-scratch-in-10-minutes-fe74519ef8c8
+* 
 
 
 
 # References 
 
+https://ethereum.org/en/whitepaper/
+
 https://remix.ethereum.org/  - online editor
 
 https://www.freecodecamp.org/news/learn-solidity-blockchain-and-smart-contracts-in-a-free/
+
+https://www.youtube.com/watch?v=M576WGiDBdQ (Patrick Collins)
 
 https://github.com/trottier/original-bitcoin/tree/master/src -- Satoshi Nakomoto bitcoin source code. 
 
