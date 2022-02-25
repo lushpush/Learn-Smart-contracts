@@ -130,12 +130,16 @@ https://hackernoon.com/learn-blockchains-by-building-one-117428612f46
 
 * Build your own blockchain using abovementioned example Step 1,2,3
 
+Solidity Sample voting Artical 
+
+* https://www.goverticalworkshop.com/blockchain-2018-event/resources/ethereum-voting-app
+
 ### **Sprint 3: ( 1/28 )**
 
 * Read ethereum  white paper https://ethereum.org/en/whitepaper/
 * Follow code 
   https://medium.com/brexeng/building-ethereum-from-scratch-in-10-minutes-fe74519ef8c8
-* 
+  * https://github.com/madrona-labs/voting
 
 
 
