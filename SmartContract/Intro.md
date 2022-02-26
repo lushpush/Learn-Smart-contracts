@@ -139,7 +139,8 @@ Solidity Sample voting Artical
 * Read ethereum  white paper https://ethereum.org/en/whitepaper/
 * Follow code 
   https://medium.com/brexeng/building-ethereum-from-scratch-in-10-minutes-fe74519ef8c8
-  * https://github.com/madrona-labs/voting
+  * https://github.com/gablg1/pythereum/blob/main/blockchain.py
+* https://github.com/madrona-labs/voting
 
 ``` solidity
 / SPDX-License-Identifier: GPL-3.0
